@@ -30,9 +30,9 @@ public class OrderedArrayList<T extends Comparable<T>> extends NoNullArrayList<T
   }
 
   public T set(int index, T element) {
+    T x = this.get(index);
     super.remove(index);
     add(element);
+    return x;
   }
-
-
 }

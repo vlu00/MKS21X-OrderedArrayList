@@ -14,5 +14,7 @@ public class MyDriver{
   A.add(1,3);
   A.add(1,5);
   System.out.println(A);
+  A.set(1,3);
+  System.out.println(A); 
 }
 }
